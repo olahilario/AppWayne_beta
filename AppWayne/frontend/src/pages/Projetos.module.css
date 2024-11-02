@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container_fox_projetos{
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: black;
+  background-image: url('fox_home_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.stack_container{
+  display: flex;
+  min-width: 90vw;
+  min-height: 90vh;
+  justify-content:center;
+  align-items: center;
+
+}
+
+.firefly{
+  z-index: -1;
+}
+
+.cardItem {
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  height: 80%;
+
+}
+
+.cardItem:hover {
+  transform: scale(1.10); /* Aumenta o tamanho do cartão */
+  box-shadow: 0 4px 10px #1e1e28; /* Sombra ao passar o mouse */
+  background-color: #1e1e28; /* Cor de fundo ao passar o mouse */
+}

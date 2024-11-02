@@ -1,0 +1,85 @@
+@import url('https://fonts.cdnfonts.com/css/lucida-console');
+
+*{
+  margin: 0
+}
+
+.container_alfred_home{
+  /* height: 100vh; */
+  background-image: url('alfred_bg.jpg');
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.bat{
+  height: 50px;
+  scale: 30%;
+  /* mix-blend-mode: soft-light; */
+  transform: scale(2.5) rotate(360deg);
+  transition: transform 0.5s ease-in-out;
+}
+
+.bat:hover {
+  cursor: crosshair;
+  transform: scale(2.5) rotate(180deg);
+  mix-blend-mode: luminosity;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+.box {
+  position: fixed;
+  top: 49%;
+  left: 30%;
+  scale: 90%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background-color: hsla(49, 100%, 50%, 0.9);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.box h1{
+  mix-blend-mode: multiply;
+  background-color: #1e1e1e;
+  font-family: monospace;
+}
+
+.box:hover{
+  box-shadow: 0 0 10px #edb522;
+
+}
+
+.button{
+  background-color: #e6e2c9;
+  border: none;
+  border-radius: 10px;
+  min-height: 5vh;
+  margin-top: 10px;
+  font-family: monospace;
+  font-weight: bolder;
+  color: #272823;
+  text-transform: uppercase;
+}
+
+.button:hover{
+  box-shadow: 0 0 10px #edb522;
+  scale: 110%;
+  cursor: pointer;
+  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  color: #edb522;
+  cursor: pointer;
+}

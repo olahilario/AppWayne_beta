@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+}
+
+.grid_global{
+  background-image: url('8bit_city2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: screen;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container_global{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100vw;
+}
+
+.clock_display{
+  display: flex;
+  flex-direction: column;
+  color: #ffd101;
+  font-family: 'monospace';
+  font-size: 3em;
+  font-weight: bold;
+  text-align: right;
+  text-transform: lowercase;
+  line-height: 1.4em;
+  margin-top: -20vh
+}
+
+.image_container{
+  margin-top: 5vh;
+}
+
+
+

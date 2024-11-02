@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/lucida-console');
+
+*{
+  margin: 0
+}
+
+.container_alfred_cardapio{
+  /* height: 100vh; */
+  background-image: url('alfred_bg.jpg');
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.bat{
+  height: 50px;
+  scale: 30%;
+  /* mix-blend-mode: soft-light; */
+  transform: scale(2.5) rotate(360deg);
+  transition: transform 0.5s ease-in-out;
+  z-index: 0;
+}
+
+.bat:hover {
+  cursor: pointer;
+  transform: scale(2.5) rotate(180deg);
+  mix-blend-mode: luminosity;
+  transition: transform 0.5s ease-in-out;
+}
+
+.bats{
+  z-index:0;
+}
+
+.clock_container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  mix-blend-mode: exclusion;
+  min-height: 90vh;
+  min-width: 100vw;
+  position: absolute;
+}
+
+.clock_container p{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 70px;
+  color: #ffffff;
+  padding: 2vh;
+
+}

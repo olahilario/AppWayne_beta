@@ -1,0 +1,12 @@
+.bg{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url('alfred_bg.jpg');
+
+}
+
+
+button{
+  margin: 10px, 10px;
+}

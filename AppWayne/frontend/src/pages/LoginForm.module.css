@@ -1,0 +1,77 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bat{
+  scale: 15%;
+  mix-blend-mode: soft-light;
+  transform: scale(2.5) rotate(360deg);
+  transition: transform 0.5s ease-in-out;
+
+}
+
+.bat:hover {
+  cursor: pointer;
+  transform: scale(2.5) rotate(90deg);
+  mix-blend-mode: luminosity;
+  transition: transform 0.5s ease-in-out;
+}
+
+.login_background{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.login_box{
+  background-color: azure;
+  padding: 20px;
+  min-width: 300px;
+  height: 60%;
+  width: 25%;
+  border-radius: 20px;
+  border: 1px solid #0f0c29;
+  overflow: hidden;
+  
+}
+
+.item_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: aliceblue;
+  color: #24243e;
+}
+
+.title{
+  font-size: 30px;
+  color: #0f0c29;
+  font-family: monospace;
+  text-transform: uppercase;
+
+}
+
+.msg{
+  margin-bottom: 15px;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: bold;
+  color: #0f0c29;
+  padding: 5px;
+  background-color:#ffd101
+
+}
+
+.msg_login{
+  font-family: monospace;
+}

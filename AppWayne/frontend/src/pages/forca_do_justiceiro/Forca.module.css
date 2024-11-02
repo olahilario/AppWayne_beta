@@ -1,0 +1,18 @@
+.forca{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  scale: 75%;
+  margin-right: 0%;
+  margin-top: -10vh;
+}
+
+.bg{
+  height: 100vh;
+  background-image: url('8bit_city2.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+.container_fox_veiculos{
+    height: 100vh;
+    background-color: black;
+    background-image: url('fox_home_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+
+}
+
+.welcome_div{
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  overflow: auto;
+}

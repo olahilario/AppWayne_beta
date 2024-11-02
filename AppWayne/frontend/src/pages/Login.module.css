@@ -1,0 +1,91 @@
+body{
+  margin: 0px;
+}
+
+.background{
+  background-color: #8faac7;
+  margin: 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_login{
+  scale: 70%;
+  cursor: help;
+}
+
+.logo_login:hover{
+  scale: 74%;
+  mix-blend-mode: hard-light;
+}
+
+.container_login{
+  background-color: hsl(211, 33%, 67%);
+  height: 25vh;
+  width: 25vw;
+  margin-top: 2vh;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.retro_input {
+  width: 50%;
+  padding: 10px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  background-color: #222222;
+  color: #ffd101;
+  font-family: monospace;
+  font-size: 1em;
+  box-shadow: 0 0 5px #edb522;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  box-sizing: border-box;
+  margin-bottom: 2vh;
+}
+
+.retro_input:focus {
+  outline: none;
+  border-color: #ffd101;
+  box-shadow: 0 0 10px #ffd101;
+}
+
+.retro_input option {
+  background-color: #222222;
+  color: #ffd101;
+}
+
+.retro_button {
+  min-width: 23%;
+  padding: 10px;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  background-color: #222222;
+  color: #ffd101;
+  font-family: monospace;
+  font-size: 1em;
+  box-shadow: 0 0 5px #edb522;
+  transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+.retro_button:hover {
+  background-color: #ffd101;
+  color: #222222;
+  box-shadow: 0 0 10px #edb522;
+}
+
+.retro_button:focus {
+  outline: none;
+  border-color: #ffd101;
+  box-shadow: 0 0 10px #ffd101;
+}

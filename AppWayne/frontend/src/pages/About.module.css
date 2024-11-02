@@ -1,0 +1,45 @@
+body{
+  margin: 0px;
+}
+
+.background_about{
+  background-color: #8faac7;
+  margin: 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_login{
+  scale: 40%;
+  cursor: help;
+}
+
+.logo_login:hover{
+  scale: 74%;
+  mix-blend-mode: hard-light;
+}
+
+.text_about{
+  color: #222222;
+  font-family: monospace;
+  font-size: 1.5em;
+  max-width: 70%;
+  text-align: justify;
+  line-height: 1.3;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+}
+
+.text_about:hover{
+  cursor: pointer;
+}
+
+.h1{
+  color: #222222; /* Darker text */
+  font-family: 'Courier New', monospace; /* More modern monospace font */
+  font-size: 2em;
+}
