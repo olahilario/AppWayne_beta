@@ -62,7 +62,7 @@ para restringir as views de cada um deles.
 Pela interface do Django admin, eu calculei que seria mais fácil.
 Mas como foquei muito numa autenticação segura com token e armazenamento de senhas em hash...
 Acabei complexificando demais o meu model que os usuários autenticados herdam permissões.
-Enfim. É um angú que seria arriscado manipular tais coisas críticas NO DIA DE ENTREGAR! Hahahaha!
+Enfim. É um angú de coisas críticas que seria arriscado manipular NO DIA DE ENTREGAR! Hahahaha!
 
 Mas de toda forma eu restringiria essas permissões apenas aos três: Batman, Alfred e Fox.
 Para facilitar a navegação e a avaliação, é interessante que o seu registro
