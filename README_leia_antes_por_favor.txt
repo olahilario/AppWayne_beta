@@ -18,9 +18,11 @@ cd .\backend
 python .\manage.py runserver
 
 3.2) Inicializando o frontend (EM OUTRA JANELA DO TERMINAL):
-Execute os 2 comandos a seguir, uma linha por vez:
+Execute os 3 comandos a seguir, uma linha por vez:
 
 cd .\frontend
+
+npm install
 
 npm run dev
 
