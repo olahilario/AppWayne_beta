@@ -14,6 +14,8 @@ cd .\backend
 
 .venv\Scripts/activate
 
+pip install -r requirements.txt
+
 python .\manage.py runserver
 
 3.1)v2 Caso prefira criar seu próprio ambiente virtual, os commandos são:
