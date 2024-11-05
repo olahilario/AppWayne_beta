@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 function Relogio() {
-  const batImages = Array(450).fill('bat.svg');
+  const batImages = Array(999).fill('bat.svg');
 
   const navigate = useNavigate()
 

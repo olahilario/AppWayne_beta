@@ -39,7 +39,7 @@ function Map() {
     const minutes = time.getMinutes();
     const seconds = time.getSeconds();
     const indexDay = time.getDay()
-    const week = ['domingo', 'degunda-feira', 'terça-Feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado']
+    const week = ['domingo', 'segunda-feira', 'terça-Feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado']
     const day = week[indexDay];
 
     const meridiem = hours >=12 ? 'PM' : 'AM'

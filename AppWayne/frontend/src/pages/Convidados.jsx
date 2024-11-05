@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react'
 
 function Convidados() {
 
-  const batImages = Array(390).fill('bat.svg')
+  const batImages = Array(2000).fill('bat.svg')
   const [guests, setGuests] = useState([])
 
   const [isEditing, setIsEditing] = useState(false)

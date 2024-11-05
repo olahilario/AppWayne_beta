@@ -110,7 +110,7 @@ const schema = yup.object({
 });
 
 function AlfredHome() {
-  const batImages = Array(390).fill('bat.svg');
+  const batImages = Array(999).fill('bat.svg');
 
   const navigate = useNavigate()
   

@@ -3,12 +3,13 @@
 }
 
 .container_alfred_convidados{
-  height: 180vh;
+  height: 300vh;
   background-image: url('alfred_bg.jpg');
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 

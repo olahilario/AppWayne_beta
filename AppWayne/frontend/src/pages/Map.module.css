@@ -30,7 +30,8 @@
   text-align: right;
   text-transform: lowercase;
   line-height: 1.4em;
-  margin-top: -20vh
+  margin-top: -20vh;
+  text-align: center;
 }
 
 .image_container{

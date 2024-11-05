@@ -3,7 +3,7 @@ import styles from './Login.module.css';
 import { useNavigate } from 'react-router-dom';
 
 function Login() {
-  const [selectedValue, setSelectedValue] = useState('');
+  const [selectedValue, setSelectedValue] = useState('Fox');
   const navigate = useNavigate()
 
   const handleChange = (event) => {
@@ -26,7 +26,7 @@ function Login() {
 
       <div className={styles.container_login}>
         <select className={styles.retro_input} value={selectedValue} onChange={handleChange}>
-          <option value="" disabled>Quem é você?</option>
+          <option disabled>Quem é você?</option>
           <option value="Batman">Batman</option>
           <option value="Alfred">Alfred</option>
           <option value="Fox">Lucius Fox</option>

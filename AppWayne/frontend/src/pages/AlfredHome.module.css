@@ -5,12 +5,13 @@
 }
 
 .container_alfred_home{
-  /* height: 100vh; */
+  max-height: 100vh;
   background-image: url('alfred_bg.jpg');
-  background-position: top;
+  background-position: bottom;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .bat{
