@@ -8,23 +8,15 @@ https://nodejs.org/en/download/prebuilt-installer
 
 3) Precisaremos de DUAS janelas de terminal, uma para inicializar o backend e outra para o frontend
 
-3.1)v1 Inicializando o ambiente virtual incluso na pasta e o servidor: Execute os 3 comandos a seguir, uma linha por vez:
-
-cd .\backend
-
-.venv\Scripts/activate
-
-pip install -r requirements.txt
-
-python .\manage.py runserver
-
-3.1)v2 Caso prefira criar seu próprio ambiente virtual, os commandos são:
+3.1) Vamos criar seu ambiente virtual e ativá-lo. Execute os 3 comandos em sequência:
 
 cd .\backend
 
 python -m venv .venv
 
 .venv\Scripts/activate
+
+3.2) Instalando as dependências necessárias do projeto. Execute os 2 comandos a seguir:
 
 pip install -r requirements.txt
 
